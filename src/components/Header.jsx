@@ -29,8 +29,8 @@ const Header = () => {
           <img src={logo} alt="Tivi logo" className="w-20 pl-3" />
         </a>
         {/*Initially hidden - visible on desktop mode*/}
-        <div className="hidden lg-flex">
-          <Nav></Nav>
+        <div className="hidden lg:flex">
+          <Nav />
         </div>
         {/* Initially hidden - visible on desktop mode */}
         <button className="btn btn-sm btn-outline hidden lg:flex">

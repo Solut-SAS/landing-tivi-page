@@ -24,16 +24,19 @@
   .btn {
     @apply rounded-full transition flex justify-center items-center;
   }
-  .btn-sm{
+  .btn-sm {
     @apply h-[48px] px-[16px] text-lg font-normal;
   }
   .btn-md {
     @apply h-[50px] px-[16px] text-lg font-normal;
   }
-  .btn-lg{
+  .btn-lg {
     @apply h-[50px] px-6 text-xl font-normal;
   }
   .btn-secondary {
     @apply text-white bg-secondary hover:bg-secondaryHover;
+  }
+  .btn-outline {
+    @apply bg-transparent text-secondary border border-secondary hover:bg-secondaryHover hover:text-white px-10;
   }
 }
