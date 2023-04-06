@@ -25,11 +25,11 @@ const Header = () => {
       } py-6 lg-py-4 fixed w-full transition-all z-10`}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#">
+        <a href="#" data-aos="fade-down" data-aos-delay="1000">
           <img src={logo} alt="Tivi logo" className="w-20 pl-3" />
         </a>
         {/*Initially hidden - visible on desktop mode*/}
-        <div className="hidden lg:flex">
+        <div className="hidden lg:flex" data-aos="fade-down" data-aos-delay="1200">
           <Nav />
         </div>
         {/* Initially hidden - visible on desktop mode */}
