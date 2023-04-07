@@ -4,6 +4,10 @@ import logoImage from "../src/assets/header/logo2.png";
 import sectionOneImage from "../src/assets/about-us/sectionOne/social-life.svg";
 //https://storyset.com/illustration/manage-money/pana#utm_source=freepik&utm_medium=referall&utm_campaign=storiesdetail&utm_content=edit-button&utm_term=edit
 import sectionSecondImage from "../src/assets/about-us/sectionTwo/financial.png";
+import footerContactImage from "../src/assets/footer/contact.jpg";
+import facebook from "../src/assets/footer/facebook.png";
+import instagram from "../src/assets/footer/instagram.png";
+import whatsapp from "../src/assets/footer/whatsapp.png";
 
 export const header = {
   logo: logoImage,
@@ -80,5 +84,16 @@ export const pricing = {
       btnText: "Consultar precio",
       delay: 900,
     },
+  ],
+};
+
+export const footer = {
+  title: "A la distancia de un clic",
+  subtitle: "Puedes encontrarnos a través de nuestras redes sociales:",
+  image: footerContactImage,
+  social: [
+    { icon: facebook, href: "/" },
+    { icon: instagram, href: "/" },
+    { icon: whatsapp, href: "/" },
   ],
 };

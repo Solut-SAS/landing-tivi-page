@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { pricing, sections } from "../data";
+import { pricing} from "../data";
 
 import { HiCheck, HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { BsCashCoin } from "react-icons/bs";
@@ -11,10 +11,16 @@ const Pricing = () => {
   return (
     <section className="section">
       <div className="container mx-auto">
-        <h2 className="title mb-8 lg:mb-8 text-center"> {title} </h2>
+        <h2
+          className="title mb-8 lg:mb-8 text-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          {title}
+        </h2>
         <div className="flex flex-col lg:flex-row lg:gap-x-[30px] lg:gap-y-0 justify-content-center items-center">
           {cards.map((card, cardIndex) => {
-            const { title, services, price, btnText, delay } = card;
+            const { title, services, btnText, delay } = card;
             return (
               <div
                 data-aos="fade-up"
