@@ -43,3 +43,42 @@ export const sections = {
     image: sectionSecondImage,
   },
 };
+
+export const pricing = {
+  title: "Planes y detalles",
+  cards: [
+    {
+      title: "Básico",
+      services: [
+        { name: "Almacenamiento financiero" },
+        { name: "Seguimiento a bitácora" },
+        { name: "Acceso y control de invitados" },
+      ],
+      price: "$9.99",
+      btnText: "Consultar precio",
+      delay: 300,
+    },
+    {
+      title: "Estándar",
+      services: [
+        { name: "Almacenamiento financiero" },
+        { name: "Seguimiento a bitácora" },
+        { name: "Acceso y control de invitados" },
+      ],
+      price: "$19.99",
+      btnText: "Consultar precio",
+      delay: 600,
+    },
+    {
+      title: "Premium",
+      services: [
+        { name: "Almacenamiento financiero" },
+        { name: "Seguimiento a bitácora" },
+        { name: "Acceso y control de invitados" },
+      ],
+      price: "$29.99",
+      btnText: "Consultar precio",
+      delay: 900,
+    },
+  ],
+};
