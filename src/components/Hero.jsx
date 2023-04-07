@@ -26,7 +26,11 @@ const Hero = () => {
             >
               {subtitle}
             </p>
-            <div data-aos="fade-down" data-aos-delay="700" className="flex justify-around">
+            <div
+              data-aos="fade-down"
+              data-aos-delay="700"
+              className="flex justify-around"
+            >
               <button className="btn btn-md lg:btn-lg btn-secondary flex justify-center items-center lg:gap-x-4">
                 {btnFirstModule} <HiOutlineChevronDown />
               </button>
