@@ -1,10 +1,15 @@
-import heroImage from "../src/assets/img/hero/mainImage.jpg";
+// import heroImage from "../src/assets/img/hero/mainImage.jpg";
+//https://storyset.com/illustration/mobile-testing/pana#utm_source=freepik&utm_medium=referall&utm_campaign=storiesdetail&utm_content=edit-button&utm_term=edit
+import heroImage from "../src/assets/img/hero/hero-v2.png";
 import logoImage from "../src/assets/header/logo2.png";
 //https://storyset.com/illustration/social-life/amico
 import sectionOneImage from "../src/assets/about-us/sectionOne/social-life.svg";
 //https://storyset.com/illustration/manage-money/pana#utm_source=freepik&utm_medium=referall&utm_campaign=storiesdetail&utm_content=edit-button&utm_term=edit
 import sectionSecondImage from "../src/assets/about-us/sectionTwo/financial.png";
-import footerContactImage from "../src/assets/footer/contact.jpg";
+// import footerContactImage from "../src/assets/footer/contact.jpg";
+//https://storyset.com/illustration/email-campaign/amico#utm_source=freepik&utm_medium=referall&utm_campaign=storiesdetail&utm_content=edit-button&utm_term=edit
+// OPTIONAL https://www.freepik.es/vector-gratis/ilustracion-concepto-mensajero_6199003.htm#query=contact%20ilustration&position=42&from_view=search&track=ais
+import footerContactImage from "../src/assets/footer/contact-v2.png";
 import facebook from "../src/assets/footer/facebook.png";
 import instagram from "../src/assets/footer/instagram.png";
 import whatsapp from "../src/assets/footer/whatsapp.png";
