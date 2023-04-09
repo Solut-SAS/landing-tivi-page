@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+    @apply text-lg;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-dark;
+  }
+  .pretitle {
+    @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
+  }
+  .title,
+  .section-title {
+    @apply text-6xl lg:text-7xl mb-6 font-bold;
+  }
+  .subtitle {
+    @apply text-xl text-light font-normal mb-6;
+  }
+  .btn {
+    @apply rounded-full transition flex justify-center items-center;
+  }
+  .btn-sm {
+    @apply h-[48px] px-[16px] text-lg font-normal;
+  }
+  .btn-md {
+    @apply h-[50px] px-[16px] text-lg font-normal;
+  }
+  .btn-lg {
+    @apply h-[50px] px-6 text-xl font-normal;
+  }
+  .btn-secondary {
+    @apply text-white bg-secondary hover:bg-secondaryHover;
+  }
+  .btn-outline {
+    @apply bg-transparent text-secondary border border-secondary hover:bg-secondaryHover hover:text-white px-10;
+  }
+  .btn-link {
+    @apply text-secondary text-xl lg:text-2xl;
+  }
+  .section {
+    @apply p-8;
+  }
 }
