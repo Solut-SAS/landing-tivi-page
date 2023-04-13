@@ -9,7 +9,7 @@ const Pricing = () => {
   const [index, setIndex] = useState(1);
   const { title, cards } = pricing;
   return (
-    <section className="section">
+    <section className="section" id="pricing">
       <div className="container mx-auto">
         <h2
           className="title mb-8 lg:mb-8 text-center"

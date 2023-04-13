@@ -29,14 +29,13 @@ const Hero = () => {
             <div
               data-aos="fade-down"
               data-aos-delay="700"
-              className="flex justify-around"
+              className="flex justify-center items-center"
             >
-              <button className="btn btn-md lg:btn-lg btn-secondary flex justify-center items-center lg:gap-x-4">
-                {btnFirstModule} <HiOutlineChevronDown />
-              </button>
-              <button className="btn btn-md lg:btn-lg btn-secondary flex justify-center items-center lg:gap-x-4">
-                {btnSecondModule} <HiOutlineChevronDown />
-              </button>
+              <a href="#functionalities">
+                <button className="btn btn-md lg:btn-lg btn-secondary flex justify-center items-center lg:gap-x-4">
+                  {btnFirstModule}
+                </button>
+              </a>
             </div>
           </div>
           <div className="flex-1" data-aos="fade-up" data-aos-delay="800">
