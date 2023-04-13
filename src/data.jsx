@@ -3,7 +3,7 @@
 import heroImage from "../src/assets/img/hero/hero-v2.png";
 import logoImage from "../src/assets/header/logo2.png";
 //https://storyset.com/illustration/social-life/amico
-import sectionOneImage from "../src/assets/about-us/sectionOne/social-life.svg";
+import sectionOneImage from "../src/assets/about-us/sectionOne/good-team.png";
 //https://storyset.com/illustration/manage-money/pana#utm_source=freepik&utm_medium=referall&utm_campaign=storiesdetail&utm_content=edit-button&utm_term=edit
 import sectionSecondImage from "../src/assets/about-us/sectionTwo/financial.png";
 // import footerContactImage from "../src/assets/footer/contact.jpg";
@@ -48,10 +48,10 @@ export const hero = {
 
 export const sections = {
   sectionOne: {
-    pretitle: "Tecnología en el hogar",
-    title: "Espacio para título",
+    pretitle: "Innovación y crecimiento",
+    title: "Tivi para ti",
     subtitle:
-      "Espacio para agregar una descripción más detallada asociada a la sección",
+      "Somos una empresa dedicada a implementar soluciones de software que minimicen el esfuerzo en las tareas tediosas y recurrentes.",
     btnLink: "Saber más",
     image: sectionOneImage,
   },

@@ -24,7 +24,7 @@ const App = () => {
       <Header />
       <Hero />
       <SectionOne />
-      <SectionTwo />
+      {/* <SectionTwo /> */}
       <Functionalities />
       <Pricing />
       <Footer />

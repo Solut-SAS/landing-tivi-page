@@ -25,7 +25,7 @@ const SectionOne = () => {
             </button>
           </div>
           <div className="flex-1" data-aos="fade-left" data-aos-offset="300">
-            <img src={image} alt="Main about us" />
+            <img src={image} alt="Main about us" className="w-11/12" />
           </div>
         </div>
       </div>
