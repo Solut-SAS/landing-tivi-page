@@ -8,7 +8,12 @@ const SectionOne = () => {
   const { pretitle, title, subtitle, btnLink, image } = sectionOne;
 
   return (
-    <section className="section" data-aos="fade-right" data-aos-offset="400">
+    <section
+      id="sectionOne"
+      className="section"
+      data-aos="fade-right"
+      data-aos-offset="400"
+    >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]">
           <div className="flex-1">

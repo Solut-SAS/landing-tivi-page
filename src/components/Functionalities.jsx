@@ -5,7 +5,12 @@ import { functionalities } from "../data";
 const Functionalities = () => {
   const { cards } = functionalities;
   return (
-    <section className="section mb-4">
+    <section
+      className="section mb-4"
+      id="functionalities"
+      data-aos="fade-down"
+      data-aos-delay="300"
+    >
       <div className="container">
         <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-4 gap-x-[30px]">
           {cards.map((card, index) => {

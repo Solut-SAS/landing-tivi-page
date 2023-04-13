@@ -19,7 +19,7 @@ const Header = () => {
   });
 
   return (
-    <header
+    <header id="#header"
       className={`${
         isActive ? "lg:top-0 bg-white shadow-2xl" : "lg:top-[0px]"
       } py-6 lg-py-4 fixed w-full transition-all z-10`}

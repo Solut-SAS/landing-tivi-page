@@ -32,17 +32,17 @@ export const header = {
 };
 
 export const nav = [
-  { name: "Inicio", href: "/" },
-  { name: "¿Quiénes somos?", href: "/" },
-  { name: "Precios", href: "/" },
-  { name: "Contacto", href: "/" },
+  { name: "Inicio", href: "#header" },
+  { name: "¿Quiénes somos?", href: "#sectionOne" },
+  { name: "Funcionalidades", href: "#functionalities" },
+  { name: "Precios", href: "#pricing" },
+  { name: "Contacto", href: "#contact" },
 ];
 
 export const hero = {
   title: "Disfruta de más tiempo libre",
   subtitle: "Dile adiós a las tareas difíciles y repetitivas en tu condominio.",
-  btnFirstModule: "Módulo 1",
-  btnSecondModule: "Módulo 2",
+  btnFirstModule: "Ir a funcionalidades",
   image: heroImage,
 };
 
