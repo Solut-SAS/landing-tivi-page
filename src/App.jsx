@@ -9,6 +9,7 @@ import Hero from "./components/Hero";
 import Header from "./components/Header";
 import SectionOne from "./components/about-us/SectionOne";
 import SectionTwo from "./components/about-us/SectionTwo";
+import Functionalities from "./components/Functionalities";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 
@@ -24,6 +25,7 @@ const App = () => {
       <Hero />
       <SectionOne />
       <SectionTwo />
+      <Functionalities />
       <Pricing />
       <Footer />
       {/* <div className="h-[4000px]"></div> */}
