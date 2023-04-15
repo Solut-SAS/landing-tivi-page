@@ -28,7 +28,7 @@ import poolImage from "../src/assets/functionalities/pool.svg";
 
 export const header = {
   logo: logoImage,
-  btnText: "Login",
+  btnText: "Iniciar sesión",
 };
 
 export const nav = [

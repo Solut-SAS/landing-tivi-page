@@ -21,13 +21,13 @@ const Header = () => {
   return (
     <header id="#header"
       className={`${
-        isActive ? "lg:top-0 bg-white shadow-2xl" : "lg:top-[0px]"
+        isActive ? "lg:top-0 opacity-[0.96] bg-white shadow-2xl" : "lg:top-[0px]"
       } py-6 lg-py-4 fixed w-full transition-all z-10`}
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex">
           <a href="#" data-aos="fade-down" data-aos-delay="1000">
-            <img src={logo} alt="Tivi logo" className="w-20 pl-3" />
+            <img src={logo} alt="Tivi logo" className="w-20" />
           </a>
           {/*Initially hidden - visible on desktop mode*/}
           <div

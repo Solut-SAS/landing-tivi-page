@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 const App = () => {
   //initialize aos
   Aos.init({
-    duration: 1800,
+    duration: 800,
     offset: 100,
   });
   return (
