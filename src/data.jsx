@@ -32,7 +32,7 @@ export const header = {
 };
 
 export const nav = [
-  { name: "Inicio", href: "#header" },
+  { name: "Inicio", href: "#hero" },
   { name: "¿Quiénes somos?", href: "#sectionOne" },
   { name: "Funcionalidades", href: "#functionalities" },
   { name: "Precios", href: "#pricing" },
