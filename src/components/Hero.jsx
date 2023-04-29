@@ -3,12 +3,10 @@ import React from "react";
 import { hero } from "../data";
 // import heroImage from "../assets/img/hero/mainImage.jpg";
 
-import { HiOutlineChevronDown } from "react-icons/hi";
-
 const Hero = () => {
-  const { title, subtitle, btnFirstModule, btnSecondModule, image } = hero;
+  const { title, subtitle, btnFirstModule, image } = hero;
   return (
-    <section className="h-screen">
+    <section className="h-screen" id="hero">
       <div className="container mx-auto h-screen flex justify-center items-center">
         <div className="flex flex-col lg:gap-x-[30px] gap-y-0 lg:gap-y-0 lg:flex-row items-center justify-content-center text-center lg-text-left">
           <div className="flex-1">

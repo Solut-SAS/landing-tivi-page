@@ -11,14 +11,14 @@ const Functionalities = () => {
       data-aos="fade-down"
       data-aos-delay="300"
     >
-      <div className="container">
-        <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-4 gap-x-[30px]">
+      <div className="flex justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-6 gap-y-5">
           {cards.map((card, index) => {
             const { title, subtitle, image } = card;
             return (
               <div
                 key={index}
-                className="w-[270px] h-[400px] rounded-[20px] p-[40px] bg-white shadow-2xl"
+                className="w-[270px] h-[400px] rounded-[20px] p-[40px] bg-white shadow-2xl hover:bg-primaryHover hover:cursor-pointer transition-all duration-300 ease-in-out"
               >
                 <p className="text-2xl text-secondary font-bold text-center">
                   {title}

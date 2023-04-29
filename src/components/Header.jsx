@@ -12,6 +12,10 @@ const Header = () => {
 
   const { logo, btnText } = header;
 
+  const changeMobileNav = (mobileNavStatus) => {
+    setMobileNav(mobileNavStatus);
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 60 ? setIsActive(true) : setIsActive(false);
@@ -19,15 +23,18 @@ const Header = () => {
   });
 
   return (
-    <header id="#header"
+    <header
+      id="header"
       className={`${
-        isActive ? "lg:top-0 bg-white shadow-2xl" : "lg:top-[0px]"
+        isActive
+          ? "lg:top-0 opacity-[0.96] bg-white shadow-2xl"
+          : "lg:top-[0px]"
       } py-6 lg-py-4 fixed w-full transition-all z-10`}
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex">
-          <a href="#" data-aos="fade-down" data-aos-delay="1000">
-            <img src={logo} alt="Tivi logo" className="w-20 pl-3" />
+          <a href="hero" data-aos="fade-down" data-aos-delay="1000">
+            <img src={logo} alt="Tivi logo" className="w-20 ml-6" />
           </a>
           {/*Initially hidden - visible on desktop mode*/}
           <div
@@ -54,9 +61,9 @@ const Header = () => {
         <div
           className={`${
             mobileNav ? "left-0" : "-left-full"
-          } fixed top-0 bottom-0 w-[60vw] lg:hiddeb transition-all`}
+          } fixed top-0 bottom-0 w-[100vw] lg:hiddeb transition-all`}
         >
-          <MobileNav></MobileNav>
+          <MobileNav changeMobileNav={changeMobileNav}></MobileNav>
         </div>
       </div>
     </header>

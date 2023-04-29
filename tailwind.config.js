@@ -22,9 +22,10 @@ module.exports = {
         primary: "#292830",
         secondary: "#5139de",
         secondaryHover: "#5139de",
+        primaryHover: "#5139de0f",
         dark: "#292830",
-        light: "#BDBDBD"
-      },
+        light: "#BDBDBD",
+      }
     },
   },
   plugins: [],

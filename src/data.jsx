@@ -28,11 +28,11 @@ import poolImage from "../src/assets/functionalities/pool.svg";
 
 export const header = {
   logo: logoImage,
-  btnText: "Login",
+  btnText: "Iniciar sesión",
 };
 
 export const nav = [
-  { name: "Inicio", href: "#header" },
+  { name: "Inicio", href: "#hero" },
   { name: "¿Quiénes somos?", href: "#sectionOne" },
   { name: "Funcionalidades", href: "#functionalities" },
   { name: "Precios", href: "#pricing" },
